@@ -667,7 +667,7 @@ def check_alerts():
         print("utkarsh")
         print(stop_loss_price)
         print(current_price)
-        if current_price >= stop_loss_price:
+        if current_price <= stop_loss_price:
             print(current_price)
             print(stop_loss_price)
             print(f"🚨 STOP LOSS HIT: {symbol}")
